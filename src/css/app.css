@@ -3,21 +3,248 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: #cacaca;
+  color: #fff;
   background: #08020d;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 h1 {
   font-size: 60px;
   line-height: 90px;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 h2 {
   font-size: 38px;
   line-height: 57px;
-  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  padding: 200px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+input {
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .container {
+    max-width: 100%;
+    position: relative;
+    padding: 250px 20px;
+  }
+}
+
+#page-description {
+  background: center url(../images/banner.png);
+  background-size: cover;
+}
+
+#page-description h1,
+#page-description h2 {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: absolute;
+  max-width: 100%;
+  top: 25px;
+  right: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 11px;
   text-transform: uppercase;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 190px;
+          flex: 0 0 190px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo img {
+  width: 24px;
+  height: 24px;
+}
+
+nav .logo span {
+  margin-left: 16px;
+}
+
+nav .main-nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+nav .main-nav li {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+nav .search {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 250px;
+          flex: 0 1 250px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 50px;
+  background: #3c3b3d;
+  color: #757575;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+nav .search::-webkit-input-placeholder {
+  color: #757575;
+}
+
+nav .search:-ms-input-placeholder {
+  color: #757575;
+}
+
+nav .search::-ms-input-placeholder {
+  color: #757575;
+}
+
+nav .search::placeholder {
+  color: #757575;
+}
+
+.hero form {
+  max-width: 570px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.hero form button {
+  padding: 20px 30px;
+  background: #34c176;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.hero form button:hover {
+  background: #279259;
+  cursor: pointer;
+}
+
+.hero form input {
+  padding-left: 20px;
+  min-height: 50px;
+  background: transparent;
+  border: #cacaca 2px solid;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.hero form input:hover {
+  border-color: #fff;
+}
+
+.hero form input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.hero form input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.hero form input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.hero form input::placeholder {
+  color: #fff;
+}
+
+.hero form .flex-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 38%;
+          flex: 1 1 38%;
+}
+
+@media (max-width: 1240px) {
+  nav {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 0 20px;
+    gap: 1em;
+  }
+  nav .logo {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  nav .search {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  nav .main-nav {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    gap: 0.5em;
+  }
+  nav .main-nav li {
+    display: block;
+    margin-bottom: 3px;
+  }
 }
 /*# sourceMappingURL=app.css.map */
