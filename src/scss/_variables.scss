@@ -9,8 +9,8 @@ body {
 }
 
 h1,
-h2 {
-  font-weight: bold;
+h2,
+h3 {
   text-transform: uppercase;
   color: #fff;
 }
@@ -18,11 +18,19 @@ h2 {
 h1 {
   font-size: 60px;
   line-height: 90px;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 38px;
   line-height: 57px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: normal;
 }
 
 ul {
@@ -44,6 +52,14 @@ ul {
 
 input {
   font-size: 14px;
+}
+
+.btn {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 @media (max-width: 900px) {
