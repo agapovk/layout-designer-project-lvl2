@@ -1,17 +1,3 @@
-#page-pricing {
-  .container-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 0 0 0;
-    text-align: center;
-  }
-
-  & h2 {
-    margin: 0 0 50px 0;
-    padding: 0;
-  }
-}
-
 .price-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -64,7 +50,6 @@
 .btn-white {
   display: block;
   border: 1px solid#fff;
-  text-decoration: none;
 
   &:hover {
     border-color: #cacaca;
@@ -78,11 +63,6 @@
 }
 
 @media (max-width: 1240px) {
-  #page-pricing {
-    .container-main {
-      padding: 100px 20px 0 20px;
-    }
-  }
 }
 
 @media (max-width: 800px) {
