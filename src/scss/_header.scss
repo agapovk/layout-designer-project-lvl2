@@ -1,6 +1,13 @@
 #page-description {
-  background: center url(../images/banner.png);
-  background-size: cover;
+  &.index {
+    background: center url(../images/banner.png);
+    background-size: cover;
+  }
+
+  &.artist {
+    background: center url(../images/MortenHarket.png);
+    background-size: cover;
+  }
 
   & h1,
   h2 {
@@ -103,6 +110,39 @@ nav {
   }
 }
 
+.btn-purple {
+  background-color: #5328a1;
+  &:hover {
+    background-color: #6230c0;
+  }
+}
+
+.btn-red {
+  background-color: #95390c;
+  &:hover {
+    background-color: #b3450f;
+  }
+}
+
+.btn-img {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 30px;
+  width: 200px;
+  font-size: 12.8px;
+  cursor: pointer;
+  img {
+    width: 20px;
+    fill: #fff;
+  }
+}
+
+.flex-btns {
+  display: flex;
+  gap: 24px;
+}
+
 @media (max-width: 1240px) {
   nav {
     padding: 0 20px;
@@ -129,5 +169,8 @@ nav {
         margin-bottom: 3px;
       }
     }
+  }
+  .flex-btns {
+    flex-direction: column;
   }
 }

@@ -1,0 +1,45 @@
+#discography-item {
+  font-size: 16px;
+  color: #e0e0e0;
+
+  & p {
+    padding: 0;
+    margin: 0;
+  }
+  & .container-main {
+    text-align: left;
+  }
+}
+
+.discography-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.discography {
+  & img {
+    width: 250xp;
+    height: 250px;
+    margin-bottom: 18px;
+  }
+}
+.disk-name {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .discography {
+    & img {
+      width: 137px;
+      height: 137px;
+    }
+  }
+  .discography-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

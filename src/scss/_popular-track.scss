@@ -1,0 +1,46 @@
+#popular-track {
+  font-size: 12.8px;
+  color: #e0e0e0;
+
+  & .container-main {
+    text-align: left;
+  }
+}
+
+.tracks-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.popular-track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  & img {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+.track-info {
+  flex-grow: 1;
+  & p {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.track-name {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .tracks-grid {
+    grid-template-columns: 1fr;
+  }
+}
