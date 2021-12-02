@@ -547,6 +547,9 @@ nav .search::placeholder {
     font-size: 16px;
     line-height: 24px;
   }
+  .news-body p {
+    margin-top: 1em;
+  }
 }
 
 #page-app {
