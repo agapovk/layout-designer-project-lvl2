@@ -45,14 +45,19 @@ nav {
 
   .main-nav {
     flex: 1 1 auto;
-    & li {
-      display: inline-block;
-      margin-right: 24px;
+    display: flex;
+    gap: 24px;
+    a {
+      color: #cacaca;
+      text-decoration: none;
+      &:hover {
+        color: #fff;
+      }
     }
   }
 
   .search {
-    flex: 0 1 250px;
+    min-width: 250px;
     padding: 5px 10px;
     border: none;
     border-radius: 50px;
@@ -155,6 +160,9 @@ nav {
 
 @media (max-width: 600px) {
   nav {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: initial;
     padding: 0 20px;
     gap: 1em;
 
@@ -166,8 +174,8 @@ nav {
       flex-grow: 1;
     }
     .main-nav {
-      flex-basis: 100%;
-      gap: 0.5em;
+      flex-direction: column;
+      gap: 3px;
       & li {
         display: block;
         margin-bottom: 3px;
