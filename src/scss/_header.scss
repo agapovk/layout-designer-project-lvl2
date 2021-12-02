@@ -68,9 +68,6 @@ nav {
 }
 
 .hero {
-  p {
-    margin-top: 2em;
-  }
   & form {
     max-width: 570px;
     flex-wrap: wrap;
@@ -144,6 +141,7 @@ nav {
 .flex-btns {
   display: flex;
   gap: 24px;
+  margin: 48px 0;
 }
 
 @media (max-width: 1240px) {

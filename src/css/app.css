@@ -197,10 +197,6 @@ nav .search::placeholder {
   color: #757575;
 }
 
-.hero p {
-  margin-top: 2em;
-}
-
 .hero form {
   max-width: 570px;
   -ms-flex-wrap: wrap;
@@ -299,6 +295,7 @@ nav .search::placeholder {
   display: -ms-flexbox;
   display: flex;
   gap: 24px;
+  margin: 48px 0;
 }
 
 @media (max-width: 1240px) {
