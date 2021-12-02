@@ -68,6 +68,9 @@ nav {
 }
 
 .hero {
+  p {
+    margin-top: 2em;
+  }
   & form {
     max-width: 570px;
     flex-wrap: wrap;
