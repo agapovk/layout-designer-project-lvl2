@@ -9,7 +9,8 @@
     background-size: cover;
   }
 
-  & h1 {
+  & h1,
+  h2 {
     margin: 0;
     padding: 0;
   }
@@ -67,6 +68,9 @@ nav {
 }
 
 .hero {
+  p {
+    margin-top: 2em;
+  }
   & form {
     max-width: 570px;
     flex-wrap: wrap;

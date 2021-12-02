@@ -109,7 +109,8 @@ input {
   background-size: cover;
 }
 
-#page-description h1 {
+#page-description h1,
+#page-description h2 {
   margin: 0;
   padding: 0;
 }
@@ -194,6 +195,10 @@ nav .search::-ms-input-placeholder {
 
 nav .search::placeholder {
   color: #757575;
+}
+
+.hero p {
+  margin-top: 2em;
 }
 
 .hero form {
