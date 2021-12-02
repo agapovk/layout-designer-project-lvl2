@@ -55,7 +55,7 @@ ul {
 }
 
 .container-main h2 {
-  margin: 0 0 50px 0;
+  margin: 0 0 48px 0;
   padding: 0;
 }
 
@@ -486,6 +486,10 @@ nav .search::placeholder {
   color: #cacaca;
   font-size: 16px;
   line-height: 24px;
+}
+
+.news-body p {
+  margin-top: 2em;
 }
 
 .news-body h3 {
