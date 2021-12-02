@@ -205,6 +205,14 @@ nav .search::placeholder {
   color: #757575;
 }
 
+.artist .container {
+  padding-top: 250px;
+}
+
+.artist .hero p {
+  margin-top: 1em;
+}
+
 .hero p {
   margin-top: 2em;
 }
@@ -291,7 +299,7 @@ nav .search::placeholder {
       -ms-flex-align: center;
           align-items: center;
   gap: 16px;
-  padding: 20px 30px;
+  padding: 15px 30px;
   width: 200px;
   font-size: 12.8px;
   cursor: pointer;
