@@ -109,8 +109,7 @@ input {
   background-size: cover;
 }
 
-#page-description h1,
-#page-description h2 {
+#page-description h1 {
   margin: 0;
   padding: 0;
 }
