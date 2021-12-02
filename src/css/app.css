@@ -771,4 +771,8 @@ footer a:hover {
 #page-similar p {
   margin: 0;
 }
+
+#page-similar .container-main {
+  text-align: left;
+}
 /*# sourceMappingURL=app.css.map */
