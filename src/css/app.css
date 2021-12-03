@@ -638,7 +638,6 @@ footer .footer-grid {
 
 footer .footer-grid img {
   vertical-align: middle;
-  margin-right: 24px;
 }
 
 footer .footer-grid p {
@@ -660,8 +659,14 @@ footer a:hover {
   color: #fff;
 }
 
-footer .footer-grid img {
-  margin-right: 24px;
+.subscription-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
 }
 
 footer h3 {

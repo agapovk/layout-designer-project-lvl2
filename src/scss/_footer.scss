@@ -14,7 +14,6 @@ footer {
     text-align: left;
     & img {
       vertical-align: middle;
-      margin-right: 24px;
     }
     & a {
     }
@@ -39,8 +38,10 @@ footer {
   }
 }
 
-footer .footer-grid img {
-  margin-right: 24px;
+.subscription-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 footer h3 {
