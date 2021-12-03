@@ -9,7 +9,7 @@ footer {
   .footer-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 3rem 0;
+    padding: 60px 0;
     text-align: left;
     & img {
       margin-right: 24px;
@@ -59,7 +59,7 @@ footer a {
   border-top: 2px solid #cacaca;
 
   .container-main {
-    padding: 2rem 0;
+    padding: 40px 0;
     text-align: left;
   }
 
@@ -72,13 +72,13 @@ footer a {
 @media (max-width: 1240px) {
   footer {
     .footer-grid {
-      padding: 3rem 20px;
+      padding: 60px 20px;
     }
   }
 
   .footer-menu {
     .container-main {
-      padding: 2rem 20px;
+      padding: 40px 20px;
     }
   }
 }

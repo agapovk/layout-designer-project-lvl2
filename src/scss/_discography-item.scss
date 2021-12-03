@@ -4,6 +4,7 @@
 
   & h3 {
     margin: 0;
+    text-decoration: none;
   }
 
   & p {
@@ -23,6 +24,7 @@
 }
 
 .discography {
+  width: 250px;
   & img {
     width: 250xp;
     height: 250px;
@@ -38,6 +40,7 @@
 
 @media (max-width: 600px) {
   .discography {
+    width: 137px;
     & img {
       width: 137px;
       height: 137px;

@@ -51,7 +51,6 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 20px 0;
-  text-align: center;
 }
 
 .container-main h2 {
@@ -109,6 +108,7 @@ input {
 #page-description.artist {
   background: center url(../images/MortenHarket.png);
   background-size: cover;
+  text-align: left;
 }
 
 #page-description h1,
@@ -617,7 +617,7 @@ footer .footer-grid {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 3rem 0;
+  padding: 60px 0;
   text-align: left;
 }
 
@@ -669,7 +669,7 @@ footer a:hover {
 }
 
 .footer-menu .container-main {
-  padding: 2rem 0;
+  padding: 40px 0;
   text-align: left;
 }
 
@@ -682,10 +682,10 @@ footer a:hover {
 
 @media (max-width: 1240px) {
   footer .footer-grid {
-    padding: 3rem 20px;
+    padding: 60px 20px;
   }
   .footer-menu .container-main {
-    padding: 2rem 20px;
+    padding: 40px 20px;
   }
 }
 
@@ -770,6 +770,7 @@ footer a:hover {
 
 #discography-item h3 {
   margin: 0;
+  text-decoration: none;
 }
 
 #discography-item p {
@@ -792,6 +793,10 @@ footer a:hover {
   row-gap: 25px;
 }
 
+.discography {
+  width: 250px;
+}
+
 .discography img {
   width: 250xp;
   height: 250px;
@@ -806,6 +811,9 @@ footer a:hover {
 }
 
 @media (max-width: 600px) {
+  .discography {
+    width: 137px;
+  }
   .discography img {
     width: 137px;
     height: 137px;
@@ -823,6 +831,7 @@ footer a:hover {
 
 #page-similar h3 {
   margin: 0;
+  text-transform: none;
 }
 
 #page-similar p {
@@ -831,9 +840,5 @@ footer a:hover {
 
 #page-similar .container-main {
   text-align: left;
-}
-
-.discography {
-  width: 250px;
 }
 /*# sourceMappingURL=app.css.map */
