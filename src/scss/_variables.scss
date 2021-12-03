@@ -41,9 +41,18 @@ ul {
   margin: 0;
 }
 
-.container {
+#page-description {
   position: relative;
   padding: 200px 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
