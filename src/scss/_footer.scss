@@ -97,6 +97,11 @@ footer a {
 
 @media (max-width: 800px) {
   footer {
+    h3 {
+      line-height: 27px;
+      margin: 15px 0;
+    }
+
     .footer-grid {
       grid-template-columns: 1fr;
     }
