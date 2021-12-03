@@ -1,18 +1,20 @@
 #page-discography {
-  font-size: 16px;
   color: #e0e0e0;
+  font-size: 16px;
 
   & h3 {
     margin: 0;
-    line-height: 27px;
+
     font-weight: 700;
+    line-height: 27px;
     text-transform: capitalize;
   }
 
   & p {
-    padding: 0;
     margin: 0;
+    padding: 0;
   }
+
   & .container-main {
     text-align: left;
   }
@@ -27,6 +29,7 @@
 
 .discography {
   width: 250px;
+
   & img {
     width: 250xp;
     height: 250px;
@@ -34,15 +37,16 @@
   }
 }
 .disk-name {
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: bold;
   color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
 }
 
 @media (max-width: 600px) {
   .discography {
     width: 137px;
+
     & img {
       width: 137px;
       height: 137px;

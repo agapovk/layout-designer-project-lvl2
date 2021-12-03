@@ -5,9 +5,10 @@
   }
 
   &.artist {
+    text-align: left;
+
     background: center url(../images/MortenHarket.png);
     background-size: cover;
-    text-align: left;
   }
 
   & h1,
@@ -19,17 +20,20 @@
 
 nav {
   position: absolute;
-  max-width: 100%;
   top: 25px;
   right: 0;
   left: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
-  font-size: 11px;
+  justify-content: space-between;
+
+  max-width: 100%;
+
   font-weight: bold;
+  font-size: 11px;
   text-transform: uppercase;
+
   .logo {
     display: flex;
     flex: 0 0 190px;
@@ -46,13 +50,16 @@ nav {
   }
 
   .main-nav {
-    flex: 1 1 auto;
     display: flex;
+    flex: 1 1 auto;
     gap: 24px;
+
     a {
-      line-height: 14px;
       color: #cacaca;
+
+      line-height: 14px;
       text-decoration: none;
+
       &:hover {
         color: #fff;
       }
@@ -62,12 +69,15 @@ nav {
   .search {
     min-width: 250px;
     padding: 5px 10px;
-    border: none;
-    border-radius: 50px;
-    background: #3c3b3d;
+
     color: #757575;
+    background: #3c3b3d;
+
     font-size: 13px;
     text-transform: uppercase;
+
+    border: none;
+    border-radius: 50px;
 
     &::placeholder {
       color: #757575;
@@ -75,30 +85,33 @@ nav {
   }
 }
 
-.artist {
-  & .hero p {
-    margin-top: 1em;
-  }
-
-  .hero {
-    margin-top: 50px;
-  }
-}
-
 .hero {
   p {
     margin-top: 2em;
   }
+
+  .artist {
+    & .hero p {
+      margin-top: 1em;
+    }
+
+    .hero {
+      margin-top: 50px;
+    }
+  }
+
   & form {
-    max-width: 570px;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 24px;
+
+    max-width: 570px;
     margin: 0 auto;
 
     & .btn-green {
       padding: 20px 30px;
+
       background: #34c176;
 
       &:hover {
@@ -109,14 +122,13 @@ nav {
 
     & input {
       margin: 0;
-      padding: 1px 0 1px 20px;
       min-height: 44px;
+      padding: 1px 0 1px 20px;
+
       background: transparent;
+      color: #fff;
       border: #cacaca 2px solid;
       border-radius: 3px;
-      color: #fff;
-
-      //   для полей Внешний нижний отступ: 1.5rem ???
 
       &:hover {
         border-color: #fff;
@@ -135,6 +147,7 @@ nav {
 
 .btn-purple {
   background-color: #5328a1;
+
   &:hover {
     background-color: #6230c0;
   }
@@ -142,24 +155,29 @@ nav {
 
 .btn-red {
   background-color: #95390c;
+
   &:hover {
     background-color: #b3450f;
   }
 }
 
 .btn-img {
-  line-height: 22px;
   display: inline-flex;
+  padding: 20px 30px;
+
+  line-height: 22px;
   align-items: center;
   gap: 16px;
-  padding: 20px 30px;
+
   width: 200px;
   font-size: 12.8px;
+
   cursor: pointer;
+
   img {
-    vertical-align: middle;
     width: 20px;
-    fill: #fff;
+
+    vertical-align: middle;
   }
 }
 
@@ -180,8 +198,8 @@ nav {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: initial;
-    padding: 0 20px;
     gap: 16px;
+    padding: 0 20px;
 
     .logo {
       flex-basis: 100%;
@@ -190,9 +208,10 @@ nav {
     .search {
       flex-grow: 1;
     }
+
     .main-nav {
-      width: fit-content;
       flex-direction: column;
+      width: fit-content;
       gap: 3px;
 
       li {
@@ -200,22 +219,27 @@ nav {
       }
     }
   }
+
   .flex-btns {
     flex-direction: column;
   }
+
   .hero {
     p {
       margin-top: 1em;
     }
+
     & form {
       flex-direction: column;
     }
   }
+
   .index {
     .hero {
       margin-top: 48px;
     }
   }
+
   .artist {
     .container {
       margin-top: -23px;
