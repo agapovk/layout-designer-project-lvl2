@@ -96,7 +96,7 @@ input {
   .container {
     max-width: 100%;
     position: relative;
-    padding: 250px 20px 200px 20px;
+    padding: 225px 20px 200px 20px;
   }
 }
 
@@ -135,6 +135,8 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   font-size: 11px;
+  line-height: 12.8px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -179,13 +181,14 @@ nav .main-nav a:hover {
 }
 
 nav .search {
+  margin-top: 5px;
   min-width: 250px;
   padding: 5px 10px;
   border: none;
   border-radius: 50px;
   background: #3c3b3d;
   color: #757575;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
 }
 
@@ -355,8 +358,7 @@ nav .search::placeholder {
     gap: 3px;
   }
   nav .main-nav li {
-    display: block;
-    margin-bottom: 3px;
+    display: inline;
   }
   .flex-btns {
     -webkit-box-orient: vertical;
