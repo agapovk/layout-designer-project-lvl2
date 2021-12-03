@@ -787,7 +787,7 @@ footer a:hover {
 
 #page-popular-track h3 {
   font-size: 12.8px;
-  line-height: 19.8px;
+  line-height: 19.2px;
   margin: 0;
 }
 
@@ -823,10 +823,10 @@ footer a:hover {
   height: 55px;
 }
 
-.track-info {
+.empty-grow {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .track-info p {
