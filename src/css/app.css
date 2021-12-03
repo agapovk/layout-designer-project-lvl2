@@ -632,15 +632,21 @@ footer .footer-grid {
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 60px 0;
+  gap: 40px;
   text-align: left;
 }
 
 footer .footer-grid img {
+  vertical-align: middle;
   margin-right: 24px;
 }
 
 footer .footer-grid a {
   display: block;
+}
+
+footer .footer-grid p {
+  margin: 0;
 }
 
 footer h3 {

@@ -10,12 +10,17 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 60px 0;
+    gap: 40px;
     text-align: left;
     & img {
+      vertical-align: middle;
       margin-right: 24px;
     }
     & a {
       display: block;
+    }
+    & p {
+      margin: 0;
     }
   }
 
