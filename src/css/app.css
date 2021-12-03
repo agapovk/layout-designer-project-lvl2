@@ -390,6 +390,9 @@ nav .search::placeholder {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .index .hero {
+    margin-top: 48px;
+  }
   .artist .container {
     margin-top: -23px;
   }
