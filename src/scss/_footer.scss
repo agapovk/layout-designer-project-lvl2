@@ -44,10 +44,15 @@ footer {
   gap: 24px;
 }
 
-footer h2 {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: bold;
+footer {
+  .container-main {
+    h2 {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: bold;
+      margin: 0 0 18px;
+    }
+  }
 }
 
 footer a {
