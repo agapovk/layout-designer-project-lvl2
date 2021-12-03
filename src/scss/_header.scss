@@ -144,6 +144,7 @@ nav {
 }
 
 .btn-img {
+  line-height: 22px;
   display: inline-flex;
   align-items: center;
   gap: 16px;
@@ -204,6 +205,12 @@ nav {
     }
     & form {
       flex-direction: column;
+    }
+  }
+
+  .artist {
+    .container {
+      margin-top: -23px;
     }
   }
 }

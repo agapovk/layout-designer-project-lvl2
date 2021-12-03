@@ -301,6 +301,7 @@ nav .search::placeholder {
 }
 
 .btn-img {
+  line-height: 22px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -384,6 +385,9 @@ nav .search::placeholder {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .artist .container {
+    margin-top: -23px;
   }
 }
 
