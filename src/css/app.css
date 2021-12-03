@@ -786,8 +786,9 @@ footer a:hover {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-  -webkit-column-gap: 50px;
-          column-gap: 50px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   row-gap: 25px;
 }
 
