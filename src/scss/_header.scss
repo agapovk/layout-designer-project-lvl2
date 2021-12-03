@@ -46,7 +46,7 @@ nav {
   }
 
   .main-nav {
-    width: fit-content;
+    flex: 1 1 auto;
     display: flex;
     gap: 24px;
     a {
@@ -189,6 +189,7 @@ nav {
       flex-grow: 1;
     }
     .main-nav {
+      width: fit-content;
       flex-direction: column;
       gap: 3px;
 
