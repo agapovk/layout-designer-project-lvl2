@@ -780,18 +780,18 @@ footer a:hover {
   }
 }
 
-#popular-track {
+#page-popular-track {
   font-size: 12.8px;
   color: #e0e0e0;
 }
 
-#popular-track h3 {
+#page-popular-track h3 {
   font-size: 12.8px;
   line-height: 19.8px;
   margin: 0;
 }
 
-#popular-track .container-main {
+#page-popular-track .container-main {
   text-align: left;
 }
 
@@ -847,24 +847,24 @@ footer a:hover {
   }
 }
 
-#discography-item {
+#page-discography {
   font-size: 16px;
   color: #e0e0e0;
 }
 
-#discography-item h3 {
+#page-discography h3 {
   margin: 0;
   line-height: 27px;
   font-weight: 700;
   text-transform: capitalize;
 }
 
-#discography-item p {
+#page-discography p {
   padding: 0;
   margin: 0;
 }
 
-#discography-item .container-main {
+#page-discography .container-main {
   text-align: left;
 }
 
