@@ -234,7 +234,7 @@ nav .search::placeholder {
 }
 
 .hero form .btn-green {
-  padding: 21px 30px;
+  padding: 20px 30px;
   background: #34c176;
 }
 
@@ -303,7 +303,7 @@ nav .search::placeholder {
       -ms-flex-align: center;
           align-items: center;
   gap: 16px;
-  padding: 21px 30px;
+  padding: 20px 30px;
   width: 200px;
   font-size: 12.8px;
   cursor: pointer;
@@ -520,7 +520,7 @@ nav .search::placeholder {
   margin: 0;
   font-size: 30px;
   line-height: 45px;
-  text-transform: none;
+  text-transform: capitalize;
 }
 
 .btn-gray {
@@ -837,7 +837,6 @@ footer a:hover {
   margin: 0;
   line-height: 27px;
   font-weight: 700;
-  text-decoration: none;
   text-transform: capitalize;
 }
 
@@ -899,7 +898,7 @@ footer a:hover {
 
 #page-similar h3 {
   margin: 0;
-  text-transform: none;
+  text-transform: capitalize;
 }
 
 #page-similar p {
