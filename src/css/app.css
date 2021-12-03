@@ -233,6 +233,7 @@ nav .search::placeholder {
 }
 
 .hero form .btn-green {
+  padding: 21px 30px;
   background: #34c176;
 }
 
@@ -242,8 +243,9 @@ nav .search::placeholder {
 }
 
 .hero form input {
-  padding-left: 20px;
-  min-height: 50px;
+  margin: 0;
+  padding: 0 0 0 20px;
+  min-height: 44px;
   background: transparent;
   border: #cacaca 2px solid;
   border-radius: 3px;
