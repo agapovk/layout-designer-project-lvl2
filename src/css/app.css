@@ -135,7 +135,6 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   font-size: 11px;
-  line-height: 12.8px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -361,6 +360,15 @@ nav .search::placeholder {
     display: inline;
   }
   .flex-btns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero p {
+    margin-top: 1em;
+  }
+  .hero form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

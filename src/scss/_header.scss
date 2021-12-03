@@ -28,7 +28,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-size: 11px;
-  line-height: 12.8px;
   font-weight: bold;
   text-transform: uppercase;
   .logo {
@@ -198,5 +197,13 @@ nav {
   }
   .flex-btns {
     flex-direction: column;
+  }
+  .hero {
+    p {
+      margin-top: 1em;
+    }
+    & form {
+      flex-direction: column;
+    }
   }
 }
