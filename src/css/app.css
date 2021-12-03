@@ -220,6 +220,10 @@ nav .search::placeholder {
   margin-top: 1em;
 }
 
+.artist .hero {
+  margin-top: 50px;
+}
+
 .hero p {
   margin-top: 2em;
 }
