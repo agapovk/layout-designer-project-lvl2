@@ -464,7 +464,7 @@ nav .search::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 57px;
+  gap: 50px;
   text-align: left;
 }
 
@@ -514,10 +514,6 @@ nav .search::placeholder {
   border-color: #fff;
 }
 
-.news-footer {
-  margin-top: 21px;
-}
-
 .news-author {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -541,7 +537,11 @@ nav .search::placeholder {
 }
 
 @media (max-width: 800px) {
+  .news-footer {
+    margin-top: 21px;
+  }
   .news-item {
+    gap: 57px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
