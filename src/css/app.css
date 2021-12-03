@@ -721,7 +721,6 @@ footer a:hover {
 @media (max-width: 800px) {
   footer h3 {
     line-height: 27px;
-    margin: 15px 0;
   }
   footer .footer-grid {
     -ms-grid-columns: 1fr;
