@@ -631,7 +631,7 @@ footer .footer-grid {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 60px 0;
+  padding: 44px 0 72px;
   gap: 40px;
   text-align: left;
 }
@@ -651,7 +651,7 @@ footer .footer-grid p {
 
 footer h3 {
   font-size: 18px;
-  line-height: 27px;
+  line-height: 24px;
   font-weight: bold;
 }
 

@@ -9,7 +9,7 @@ footer {
   .footer-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 60px 0;
+    padding: 44px 0 72px;
     gap: 40px;
     text-align: left;
     & img {
@@ -26,7 +26,7 @@ footer {
 
   h3 {
     font-size: 18px;
-    line-height: 27px;
+    line-height: 24px;
     font-weight: bold;
   }
 
