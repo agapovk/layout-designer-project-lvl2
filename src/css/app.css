@@ -528,6 +528,10 @@ nav .search::placeholder {
   line-height: 20px;
 }
 
+.news-author .avatar img {
+  vertical-align: middle;
+}
+
 .news-author .category {
   color: #f89202;
 }

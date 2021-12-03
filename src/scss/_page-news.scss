@@ -59,6 +59,9 @@
   font-size: 13px;
   line-height: 20px;
   .avatar {
+    img {
+      vertical-align: middle;
+    }
   }
   .category {
     color: #f89202;
