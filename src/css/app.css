@@ -289,6 +289,10 @@ nav .search::placeholder {
           flex: 1 1 38%;
 }
 
+.index .hero p {
+  margin-top: 2em;
+}
+
 .btn-purple {
   background-color: #5328a1;
 }
