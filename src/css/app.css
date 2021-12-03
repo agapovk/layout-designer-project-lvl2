@@ -386,7 +386,7 @@ nav .search::placeholder {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .index .hero {
+  .hero {
     margin-top: 48px;
   }
   .artist .container {
@@ -840,7 +840,7 @@ footer a:hover {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
-  .empty-grow {
+  nav .empty-grow {
     position: absolute;
     visibility: hidden;
   }
