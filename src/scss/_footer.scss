@@ -22,7 +22,7 @@ footer {
     }
   }
 
-  h3 {
+  h2 {
     font-size: 18px;
     line-height: 24px;
     font-weight: bold;
@@ -44,7 +44,7 @@ footer {
   gap: 24px;
 }
 
-footer h3 {
+footer h2 {
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
@@ -80,7 +80,7 @@ footer a {
 
 @media (max-width: 1240px) {
   footer {
-    h3 {
+    h2 {
       line-height: 24px;
     }
     .footer-grid {
@@ -98,7 +98,7 @@ footer a {
 
 @media (max-width: 800px) {
   footer {
-    h3 {
+    h2 {
       margin: 18px 0 15px;
       line-height: 27px;
     }
