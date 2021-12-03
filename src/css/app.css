@@ -173,9 +173,6 @@ nav .main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
   gap: 24px;
 }
 
@@ -216,12 +213,16 @@ nav .search::placeholder {
   color: #757575;
 }
 
-.hero {
+.hero .artist {
   margin-top: 50px;
 }
 
+.hero .index {
+  margin-top: 0;
+}
+
 .hero p {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .hero form {
@@ -838,6 +839,10 @@ footer a:hover {
   .tracks-grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+  .empty-grow {
+    position: absolute;
+    visibility: hidden;
   }
 }
 

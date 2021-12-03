@@ -56,4 +56,9 @@
   .tracks-grid {
     grid-template-columns: 1fr;
   }
+
+  .empty-grow {
+    position: absolute;
+    visibility: hidden;
+  }
 }
