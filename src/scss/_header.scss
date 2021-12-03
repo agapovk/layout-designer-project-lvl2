@@ -135,106 +135,105 @@ nav {
       flex: 1 1 38%;
     }
   }
+}
+.btn-purple {
+  background-color: #5328a1;
 
-  .btn-purple {
-    background-color: #5328a1;
-
-    &:hover {
-      background-color: #6230c0;
-    }
+  &:hover {
+    background-color: #6230c0;
   }
+}
 
-  .btn-red {
-    background-color: #95390c;
+.btn-red {
+  background-color: #95390c;
 
-    &:hover {
-      background-color: #b3450f;
-    }
+  &:hover {
+    background-color: #b3450f;
   }
+}
 
-  .btn-img {
-    display: inline-flex;
-    padding: 20px 30px;
+.btn-img {
+  display: inline-flex;
+  padding: 20px 30px;
 
-    line-height: 22px;
-    align-items: center;
+  line-height: 22px;
+  align-items: center;
+  gap: 16px;
+
+  width: 200px;
+  font-size: 12.8px;
+
+  cursor: pointer;
+
+  img {
+    width: 20px;
+
+    vertical-align: middle;
+  }
+}
+
+.flex-btns {
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+@media (max-width: 1240px) {
+  nav {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: initial;
     gap: 16px;
+    padding: 0 20px;
 
-    width: 200px;
-    font-size: 12.8px;
+    .logo {
+      flex-basis: 100%;
+    }
 
-    cursor: pointer;
+    .search {
+      flex-grow: 1;
+    }
 
-    img {
-      width: 20px;
+    .main-nav {
+      flex-direction: column;
+      width: fit-content;
+      gap: 3px;
 
-      vertical-align: middle;
+      li {
+        display: inline;
+      }
     }
   }
 
   .flex-btns {
-    display: flex;
-    gap: 24px;
-    margin-top: 48px;
+    flex-direction: column;
   }
 
-  @media (max-width: 1240px) {
-    nav {
-      padding: 0 20px;
+  .hero {
+    p {
+      margin-top: 1em;
+    }
+
+    & form {
+      flex-direction: column;
     }
   }
 
-  @media (max-width: 600px) {
-    nav {
-      flex-direction: column;
-      flex-wrap: nowrap;
-      align-items: initial;
-      gap: 16px;
-      padding: 0 20px;
-
-      .logo {
-        flex-basis: 100%;
-      }
-
-      .search {
-        flex-grow: 1;
-      }
-
-      .main-nav {
-        flex-direction: column;
-        width: fit-content;
-        gap: 3px;
-
-        li {
-          display: inline;
-        }
-      }
-    }
-
-    .flex-btns {
-      flex-direction: column;
-    }
-
+  .index {
     .hero {
-      p {
-        margin-top: 1em;
-      }
-
-      & form {
-        flex-direction: column;
-      }
+      margin-top: 48px;
     }
+  }
 
-    .index {
-      .hero {
-        margin-top: 48px;
-      }
-    }
-
-    .artist {
-      .container {
-        margin-top: -23px;
-      }
+  .artist {
+    .container {
+      margin-top: -23px;
     }
   }
 }
