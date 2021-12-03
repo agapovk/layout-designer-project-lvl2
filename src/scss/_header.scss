@@ -76,7 +76,7 @@ nav {
 
 .artist {
   & .container {
-    padding-top: 225px;
+    padding-top: 250px;
   }
 
   & .hero p {
@@ -164,7 +164,7 @@ nav {
 .flex-btns {
   display: flex;
   gap: 24px;
-  margin: 48px 0;
+  margin-top: 48px;
 }
 
 @media (max-width: 1240px) {
@@ -206,6 +206,12 @@ nav {
     }
     & form {
       flex-direction: column;
+    }
+  }
+  .artist {
+    & .container {
+      padding-top: 225px;
+      padding-bottom: 225px;
     }
   }
 }
