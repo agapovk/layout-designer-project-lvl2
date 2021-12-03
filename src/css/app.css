@@ -642,7 +642,6 @@ footer .footer-grid img {
 }
 
 footer .footer-grid p {
-  display: inline;
   margin: 0;
 }
 
@@ -724,11 +723,18 @@ footer a:hover {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .footer-menu a {
+    display: block;
+  }
   .footer-menu ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .footer-menu ul li {
+    margin: 0;
+    padding: 0;
   }
 }
 

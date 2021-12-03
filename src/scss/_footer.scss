@@ -19,7 +19,6 @@ footer {
     & a {
     }
     & p {
-      display: inline;
       margin: 0;
     }
   }
@@ -104,8 +103,16 @@ footer a {
   }
 
   .footer-menu {
+    a {
+      display: block;
+    }
+
     ul {
       flex-direction: column;
+      & li {
+        margin: 0;
+        padding: 0;
+      }
     }
   }
 }
