@@ -835,7 +835,10 @@ footer a:hover {
 
 #discography-item h3 {
   margin: 0;
+  line-height: 27px;
+  font-weight: 700;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 #discography-item p {
