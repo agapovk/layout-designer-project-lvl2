@@ -96,7 +96,7 @@ input {
   .container {
     max-width: 100%;
     position: relative;
-    padding: 243px 20px 200px 20px;
+    padding: 248px 20px 200px 20px;
   }
 }
 
@@ -245,7 +245,7 @@ nav .search::placeholder {
 
 .hero form input {
   margin: 0;
-  padding: 0 0 0 20px;
+  padding: 1px 0 1px 20px;
   min-height: 44px;
   background: transparent;
   border: #cacaca 2px solid;
