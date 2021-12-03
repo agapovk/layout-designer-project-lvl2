@@ -226,7 +226,7 @@ nav .search::placeholder {
 }
 
 .hero p {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .hero form {
@@ -287,10 +287,6 @@ nav .search::placeholder {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 38%;
           flex: 1 1 38%;
-}
-
-.index .hero p {
-  margin-top: 1em;
 }
 
 .btn-purple {
