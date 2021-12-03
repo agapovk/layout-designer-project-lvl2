@@ -96,7 +96,7 @@ input {
   .container {
     max-width: 100%;
     position: relative;
-    padding: 225px 20px 200px 20px;
+    padding: 243px 20px 200px 20px;
   }
 }
 
@@ -180,7 +180,6 @@ nav .main-nav a:hover {
 }
 
 nav .search {
-  margin-top: 5px;
   min-width: 250px;
   padding: 5px 10px;
   border: none;
@@ -338,7 +337,7 @@ nav .search::placeholder {
         -ms-flex-align: initial;
             align-items: initial;
     padding: 0 20px;
-    gap: 1em;
+    gap: 16px;
   }
   nav .logo {
     -ms-flex-preferred-size: 100%;

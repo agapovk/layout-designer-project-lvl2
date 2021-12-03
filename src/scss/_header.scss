@@ -59,7 +59,6 @@ nav {
   }
 
   .search {
-    margin-top: 5px;
     min-width: 250px;
     padding: 5px 10px;
     border: none;
@@ -177,7 +176,7 @@ nav {
     flex-wrap: nowrap;
     align-items: initial;
     padding: 0 20px;
-    gap: 1em;
+    gap: 16px;
 
     .logo {
       flex-basis: 100%;
