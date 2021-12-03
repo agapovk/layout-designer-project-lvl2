@@ -207,7 +207,7 @@ nav .search::placeholder {
 }
 
 .artist .container {
-  padding-top: 250px;
+  padding-top: 225px;
 }
 
 .artist .hero p {
@@ -302,7 +302,7 @@ nav .search::placeholder {
       -ms-flex-align: center;
           align-items: center;
   gap: 16px;
-  padding: 20px 30px;
+  padding: 21px 30px;
   width: 200px;
   font-size: 12.8px;
   cursor: pointer;
