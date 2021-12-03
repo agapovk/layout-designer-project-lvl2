@@ -75,9 +75,11 @@
   .news-footer {
     margin-top: 21px;
   }
-
+  .news-author {
+    margin-bottom: 64px;
+  }
   .news-item {
-    gap: 57px;
+    gap: 43px;
     flex-direction: column;
   }
   .news-body {
@@ -88,5 +90,8 @@
     p {
       margin-top: 1em;
     }
+  }
+  .reverese {
+    margin-top: 78px;
   }
 }
