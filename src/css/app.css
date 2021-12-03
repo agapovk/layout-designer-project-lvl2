@@ -216,16 +216,12 @@ nav .search::placeholder {
   color: #757575;
 }
 
-.hero p {
-  margin-top: 2em;
-}
-
-.hero .artist .hero p {
-  margin-top: 1em;
-}
-
-.hero .artist .hero {
+.hero {
   margin-top: 50px;
+}
+
+.hero p {
+  margin-top: 1em;
 }
 
 .hero form {
@@ -288,23 +284,23 @@ nav .search::placeholder {
           flex: 1 1 38%;
 }
 
-.btn-purple {
+.hero .btn-purple {
   background-color: #5328a1;
 }
 
-.btn-purple:hover {
+.hero .btn-purple:hover {
   background-color: #6230c0;
 }
 
-.btn-red {
+.hero .btn-red {
   background-color: #95390c;
 }
 
-.btn-red:hover {
+.hero .btn-red:hover {
   background-color: #b3450f;
 }
 
-.btn-img {
+.hero .btn-img {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -319,12 +315,12 @@ nav .search::placeholder {
   cursor: pointer;
 }
 
-.btn-img img {
+.hero .btn-img img {
   width: 20px;
   vertical-align: middle;
 }
 
-.flex-btns {
+.hero .flex-btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -333,13 +329,13 @@ nav .search::placeholder {
 }
 
 @media (max-width: 1240px) {
-  nav {
+  .hero nav {
     padding: 0 20px;
   }
 }
 
 @media (max-width: 600px) {
-  nav {
+  .hero nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -352,16 +348,16 @@ nav .search::placeholder {
     gap: 16px;
     padding: 0 20px;
   }
-  nav .logo {
+  .hero nav .logo {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-  nav .search {
+  .hero nav .search {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
   }
-  nav .main-nav {
+  .hero nav .main-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -371,28 +367,28 @@ nav .search::placeholder {
     width: fit-content;
     gap: 3px;
   }
-  nav .main-nav li {
+  .hero nav .main-nav li {
     display: inline;
   }
-  .flex-btns {
+  .hero .flex-btns {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .hero p {
+  .hero .hero p {
     margin-top: 1em;
   }
-  .hero form {
+  .hero .hero form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .index .hero {
+  .hero .index .hero {
     margin-top: 48px;
   }
-  .artist .container {
+  .hero .artist .container {
     margin-top: -23px;
   }
 }
