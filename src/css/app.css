@@ -745,7 +745,7 @@ footer a:hover {
 
 @media (max-width: 800px) {
   footer h3 {
-    margin: 15px 0;
+    margin: 18px 0 15px;
     line-height: 27px;
   }
   footer .footer-grid {
