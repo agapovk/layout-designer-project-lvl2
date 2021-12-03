@@ -464,7 +464,7 @@ nav .search::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 50px;
+  gap: 57px;
   text-align: left;
 }
 
@@ -512,6 +512,10 @@ nav .search::placeholder {
 .btn-gray:hover {
   color: #fff;
   border-color: #fff;
+}
+
+.news-footer {
+  margin-top: 21px;
 }
 
 .news-author {
