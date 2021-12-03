@@ -88,7 +88,7 @@ input {
   .container-main {
     padding: 100px 20px 0 20px;
   }
-  .container {
+  #page-description {
     padding: 200px 20px;
   }
 }
@@ -102,7 +102,7 @@ input {
     font-size: 18px;
     line-height: 27px;
   }
-  .container {
+  #page-description {
     max-width: 100%;
     position: relative;
     padding: 248px 20px 200px 20px;
@@ -214,10 +214,6 @@ nav .search::-ms-input-placeholder {
 
 nav .search::placeholder {
   color: #757575;
-}
-
-.artist .container {
-  padding-top: 250px;
 }
 
 .artist .hero p {
@@ -388,10 +384,6 @@ nav .search::placeholder {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .artist .container {
-    padding-top: 225px;
-    padding-bottom: 225px;
   }
 }
 

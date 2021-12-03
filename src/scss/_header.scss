@@ -76,10 +76,6 @@ nav {
 }
 
 .artist {
-  & .container {
-    padding-top: 250px;
-  }
-
   & .hero p {
     margin-top: 1em;
   }
@@ -208,12 +204,6 @@ nav {
     }
     & form {
       flex-direction: column;
-    }
-  }
-  .artist {
-    & .container {
-      padding-top: 225px;
-      padding-bottom: 225px;
     }
   }
 }
