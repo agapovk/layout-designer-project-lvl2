@@ -9,7 +9,6 @@
 .news-item {
   display: flex;
   gap: 50px;
-
   text-align: left;
 
   & div {
@@ -23,7 +22,6 @@
 
 .reverese {
   flex-direction: row-reverse;
-
   margin-top: 60px;
 }
 
@@ -46,14 +44,11 @@
 
 .btn-gray {
   padding: 16px 30px;
-
   color: #cacaca;
-
   border: #cacaca 1px solid;
 
   &:hover {
     color: #fff;
-
     border-color: #fff;
   }
 }
@@ -61,11 +56,8 @@
 .news-author {
   display: flex;
   gap: 16px;
-
   margin-bottom: 64px;
-
   align-items: center;
-
   font-size: 13px;
   line-height: 20px;
   text-transform: uppercase;

@@ -10,12 +10,12 @@ footer {
       color: #fff;
     }
   }
+
   .container-main {
     padding: 0;
 
     h2 {
       margin: 18px 0 15px;
-
       font-size: 18px;
       font-weight: bold;
       line-height: 27px;
@@ -33,9 +33,6 @@ footer {
       vertical-align: middle;
     }
 
-    & a {
-    }
-
     & p {
       margin: 0;
     }
@@ -45,15 +42,6 @@ footer {
     font-size: 18px;
     line-height: 27px;
     font-weight: bold;
-  }
-
-  a {
-    color: #e0e0e0;
-    text-decoration: none;
-
-    &:hover {
-      color: #fff;
-    }
   }
 }
 
@@ -73,7 +61,6 @@ footer {
 
   .container-main {
     padding: 40px 0;
-
     text-align: left;
   }
 
@@ -106,7 +93,6 @@ footer {
   footer {
     h2 {
       margin: 18px 0 15px;
-
       line-height: 27px;
     }
 

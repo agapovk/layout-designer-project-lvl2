@@ -385,6 +385,9 @@ nav .search::placeholder {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .hero {
+    margin-top: 48px;
+  }
   .hero p {
     margin-top: 1em;
   }
@@ -393,9 +396,6 @@ nav .search::placeholder {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .hero {
-    margin-top: 48px;
   }
   #page-description.artist .container {
     margin-top: -23px;
@@ -704,15 +704,6 @@ footer h2 {
   font-weight: bold;
 }
 
-footer a {
-  color: #e0e0e0;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: #fff;
-}
-
 .subscription-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -894,7 +885,7 @@ footer a:hover {
 }
 
 .discography img {
-  width: 250xp;
+  width: 250px;
   height: 250px;
   margin-bottom: 11px;
 }

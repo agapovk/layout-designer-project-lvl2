@@ -3,10 +3,8 @@
 body {
   margin: 0;
   padding: 0;
-
   color: #fff;
   background: #08020d;
-
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -16,7 +14,6 @@ h1,
 h2,
 h3 {
   color: #fff;
-
   text-transform: uppercase;
 }
 
@@ -46,7 +43,6 @@ ul {
 
 #page-description {
   position: relative;
-
   padding: 200px 0;
 }
 
@@ -57,7 +53,6 @@ ul {
 
 .container {
   position: relative;
-
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -83,11 +78,9 @@ input {
 
 .btn {
   padding: 20px 30px;
-
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-
   border: none;
   border-radius: 5px;
 }
@@ -115,7 +108,6 @@ input {
 
   #page-description {
     position: relative;
-
     padding: 200px 20px 200px 20px;
     max-width: 100%;
   }

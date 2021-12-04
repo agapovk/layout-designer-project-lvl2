@@ -4,7 +4,6 @@
 
   & h3 {
     margin: 0;
-
     font-size: 12.8px;
     line-height: 19.2px;
   }
@@ -17,7 +16,6 @@
 .tracks-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   column-gap: 50px;
   row-gap: 25px;
 }
@@ -47,7 +45,6 @@
 
 .track-name {
   color: #fff;
-
   font-weight: bold;
   text-transform: uppercase;
 }
