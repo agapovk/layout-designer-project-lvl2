@@ -130,6 +130,26 @@ input {
   padding: 0;
 }
 
+.btn-img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 20px 30px;
+  line-height: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  width: 200px;
+  font-size: 12.8px;
+  cursor: pointer;
+}
+
+.btn-img img {
+  width: 20px;
+  vertical-align: middle;
+}
+
 nav {
   position: absolute;
   top: 25px;
@@ -307,26 +327,6 @@ nav .search::placeholder {
 
 .btn-red:hover {
   background-color: #b3450f;
-}
-
-.btn-img {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 20px 30px;
-  line-height: 22px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 16px;
-  width: 200px;
-  font-size: 12.8px;
-  cursor: pointer;
-}
-
-.btn-img img {
-  width: 20px;
-  vertical-align: middle;
 }
 
 .flex-btns {
@@ -669,6 +669,12 @@ footer a:hover {
   color: #fff;
 }
 
+footer h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
 footer .container-main {
   padding: 0;
 }
@@ -696,12 +702,6 @@ footer .footer-grid img {
 
 footer .footer-grid p {
   margin: 0;
-}
-
-footer h2 {
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: bold;
 }
 
 .subscription-menu {

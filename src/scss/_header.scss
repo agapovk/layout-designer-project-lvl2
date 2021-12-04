@@ -21,6 +21,22 @@
   }
 }
 
+.btn-img {
+  display: inline-flex;
+  padding: 20px 30px;
+  line-height: 22px;
+  align-items: center;
+  gap: 16px;
+  width: 200px;
+  font-size: 12.8px;
+  cursor: pointer;
+
+  img {
+    width: 20px;
+    vertical-align: middle;
+  }
+}
+
 nav {
   position: absolute;
   top: 25px;
@@ -153,23 +169,6 @@ nav {
 
   &:hover {
     background-color: #b3450f;
-  }
-}
-
-.btn-img {
-  display: inline-flex;
-  padding: 20px 30px;
-  line-height: 22px;
-  align-items: center;
-  gap: 16px;
-  width: 200px;
-  font-size: 12.8px;
-
-  cursor: pointer;
-
-  img {
-    width: 20px;
-    vertical-align: middle;
   }
 }
 
