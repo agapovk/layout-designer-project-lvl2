@@ -2,10 +2,6 @@
   &.index {
     background: center url(../images/banner.png);
     background-size: cover;
-
-    .container {
-      margin-top: 50px;
-    }
   }
 
   &.artist {
@@ -13,6 +9,10 @@
 
     background: center url(../images/MortenHarket.png);
     background-size: cover;
+
+    .container {
+      margin-top: 50px;
+    }
   }
 
   & h1,

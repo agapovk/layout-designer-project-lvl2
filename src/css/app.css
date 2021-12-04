@@ -114,14 +114,14 @@ input {
   background-size: cover;
 }
 
-#page-description.index .container {
-  margin-top: 50px;
-}
-
 #page-description.artist {
   text-align: left;
   background: center url(../images/MortenHarket.png);
   background-size: cover;
+}
+
+#page-description.artist .container {
+  margin-top: 50px;
 }
 
 #page-description h1,
